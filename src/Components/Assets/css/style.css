@@ -1,0 +1,6 @@
+<button
+        onClick={toggleSidebar}
+        className="p-2 text-white absolute top-4 right-4"
+      >
+        {isSidebarOpen ? "Hide" : "Show"}
+      </button>
